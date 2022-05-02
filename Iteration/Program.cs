@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 
+
 class Program
 {
     static void Main(string[] args)
@@ -87,27 +88,103 @@ class Program
 
 
 
-        //Console App Assignment 1
+        //Console App Assignment 1 TEST
+        //Console.WriteLine("Which colour do you like the best: blue, green, yellow or red? ");
+        //string[] colours = { "blue", "green", "yellow", "red" };
+
+        //string userColour = Console.ReadLine();
+
+        //for (int i = 0; i < colours.Length; i++)
+        //    {
+        //    colours[i] = colours[i] + userColour;
+        //    }
+        //Console.ReadLine();
+        //foreach (string userColours in colours)
+        //{
+        //    {
+        //        Console.WriteLine("I love the colour");
+        //    }
+        //}
+        //Console.ReadLine();
 
 
-        Console.WriteLine("Which colour do you like the best: blue, green, yellow or red? ");
-        string[] colours = { "blue", "green", "yellow", "red" };
-        for (int i = 0; i < colours.Length; i++)
-            {
-            Console.WriteLine(colours[i]);
-            }
-        Console.ReadLine();
-        foreach (string colour in colours)
+        //Console App Assignment Part 1 TEST
+        //Console.WriteLine("What is your favorite: pizza, cheese, chocolate or bubble gum?");
+        //string[] foods = { "pizza", "cheese", "chocolate", "bubble gum" };
+
+        //for (int i = 0; i < foods.Length; i++)
+        //    {
+        //    Console.WriteLine(foods[i]);
+        //    }
+        //Console.ReadLine();
+        //foreach (string food in foods) ;
+        //{
+        //    {
+        //        Console.WriteLine("is tasty!" + foods);
+        //    }
+        //}
+        //Console.ReadLine();
+
+
+
+        //Console App assignment Part 1
+        //Console.WriteLine("Type in the words 'is tasty'");
+        //string userInput = Console.ReadLine();
+        //string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+
+        //for (int i = 0; i < foods.Length; i++)
+        //{
+        //    foods[i] = foods[i] + userInput;
+        //    Console.WriteLine(foods[i]);
+        //}
+        //Console.ReadLine();
+
+
+
+        //Part 2
+
+        //int i = 10;
+        //    while (i= 10) 
+        //{
+        //    Console.WriteLine("infinite");
+        //}
+        //Console.ReadLine();
+
+
+
+        //Part 3
+
+
+        //Console.WriteLine("Type in the words 'is tasty'");
+        //string userInput = Console.ReadLine();
+        //string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+
+        //for (int i = 0; i <= 2; i++)
+        //{
+        //   foods[i] = foods[i] + userInput;
+        //   Console.WriteLine(foods[i]);
+        //}
+        //Console.ReadLine();
+
+
+
+        //Part 4
+        Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
+        string userInput = Console.ReadLine();
+        string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+
+        for (int i = 0; i < foods.Count; i++) ;
         {
             
-            {
-                Console.WriteLine("I love the color" + colour);
-            }
+            Console.WriteLine(foods + userInput);
         }
         Console.ReadLine();
 
 
 
-        
+
+
+
+
     }
 }
