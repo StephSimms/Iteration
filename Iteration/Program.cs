@@ -169,16 +169,29 @@ class Program
 
 
         //Part 4
+        //Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
+        //string userInput = Console.ReadLine();
+        //string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+
+        //for (int i = 0; i < userInput.Length; i++) 
+        //{
+        //    if (foods[i] == "pizza ")
+        //    {
+        //        Console.WriteLine("You picked " + userInput[i]);
+        //    }
+        //}
+        //Console.ReadLine();
+
         Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
         string userInput = Console.ReadLine();
-        string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
-
-        for (int i = 0; i < foods.Count; i++) ;
+        List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+        foreach (string food in foods)
         {
-            
-            Console.WriteLine(foods + userInput);
+            Console.WriteLine(foods.Count);
         }
         Console.ReadLine();
+
+        }
 
 
 
