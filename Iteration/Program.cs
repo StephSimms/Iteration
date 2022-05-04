@@ -185,6 +185,7 @@ class Program
         Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
         string userInput = Console.ReadLine();
         List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+        int index = foods.IndexOf(userInput);
         foreach (string food in foods)
         {
             Console.WriteLine(foods.Count);
