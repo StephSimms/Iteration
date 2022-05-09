@@ -184,15 +184,43 @@ class Program
 
         Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
         string userInput = Console.ReadLine();
-        List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum " };
-        int index = foods.IndexOf(userInput);
-        foreach (string food in foods)
+        List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum" };
+
+        int index = 0;
+        foreach (var food in foods)
         {
-            Console.WriteLine(foods.Count);
+            Console.WriteLine($"food {index}: {food}");
+            index++;
         }
         Console.ReadLine();
 
-        }
+        //string myString = "Hello";
+        //Console.WriteLine(myString.IndexOf("o"));
+        //Console.ReadLine();
+
+
+
+        //Part 5
+        //Console.WriteLine("Please select a letter of the alphabet");
+        //string userInput = Console.ReadLine();
+        //List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum " };
+        //Console.ReadLine();
+        //for (int i = 0; i < 3; i++)
+
+        //{
+            
+        //    Console.WriteLine("You picked: " + IndexOf);
+        //}
+        //Console.ReadLine();
+        //int i = 
+
+
+
+
+
+
+
+
 
 
 
@@ -201,4 +229,5 @@ class Program
 
 
     }
+    
 }
