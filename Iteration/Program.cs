@@ -187,12 +187,20 @@ class Program
         List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum" };
 
         int index = 0;
-        foreach (var food in foods)
+        foreach (string food in foods)
         {
-            Console.WriteLine($"food {index}: {food}");
-            index++;
+            if (userInput == food)
+            {
+                Console.WriteLine(foods.IndexOf(food));
+                index++;
+            }
+
+            else
+            {
+                Console.WriteLine("That item is not on the list.");
+            }
+            Console.ReadLine();
         }
-        Console.ReadLine();
 
         //string myString = "Hello";
         //Console.WriteLine(myString.IndexOf("o"));
