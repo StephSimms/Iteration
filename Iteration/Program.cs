@@ -168,7 +168,7 @@ class Program
 
 
 
-        //Part 4
+        //Part 4 TEST
         //Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
         //string userInput = Console.ReadLine();
         //string[] foods = { "pizza ", "cheese ", "chocolate ", "bubble gum " };
@@ -182,25 +182,28 @@ class Program
         //}
         //Console.ReadLine();
 
-        Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
-        string userInput = Console.ReadLine();
-        List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum" };
 
-        int index = 0;
-        foreach (string food in foods)
-        {
-            if (userInput == food)
-            {
-                Console.WriteLine(foods.IndexOf(food));
-                index++;
-            }
 
-            else
-            {
-                Console.WriteLine("That item is not on the list.");
-            }
-            Console.ReadLine();
-        }
+        //Part 4
+        //Console.WriteLine("Hello, please pick: pizza, cheese, chocolate or bubble gum ");
+        //string userInput = Console.ReadLine();
+        //List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum" };
+
+        
+        //foreach (string food in foods)
+        //{
+        //    if (userInput == food)
+        //    {
+        //        Console.WriteLine(foods.IndexOf(food));
+                
+        //    }
+
+        //    else
+        //    {
+        //        Console.WriteLine("That item is not on the list.");
+        //    }
+        //    Console.ReadLine();
+        //}
 
         //string myString = "Hello";
         //Console.WriteLine(myString.IndexOf("o"));
@@ -209,18 +212,24 @@ class Program
 
 
         //Part 5
-        //Console.WriteLine("Please select a letter of the alphabet");
-        //string userInput = Console.ReadLine();
-        //List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum " };
-        //Console.ReadLine();
-        //for (int i = 0; i < 3; i++)
+        Console.WriteLine("Please select an item: pizza, cheese, chocolate, bubble gum.");
+        string userInput = Console.ReadLine();
+        List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum", "pizza" };
 
-        //{
-            
-        //    Console.WriteLine("You picked: " + IndexOf);
-        //}
-        //Console.ReadLine();
-        //int i = 
+        for (int i =0; i < foods.Count; i ++)
+        {
+            if (foods[i] <= 4)
+            {
+
+                Console.WriteLine(foods.IndexOf(userInput));
+            }
+            else
+            {
+                Console.WriteLine("That item is not on the list.");
+            }
+        }
+        Console.ReadLine();
+        
 
 
 
