@@ -212,24 +212,51 @@ class Program
 
 
         //Part 5
-        Console.WriteLine("Please select an item: pizza, cheese, chocolate, bubble gum.");
-        string userInput = Console.ReadLine();
-        List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum", "pizza" };
+        //Console.WriteLine("Please select an item: pizza, cheese, chocolate, bubble gum.");
+        //string userInput = Console.ReadLine();
+        //List<string> foods = new List<string>() { "pizza", "cheese", "chocolate", "bubble gum", "pizza" };
 
-        for (int i =0; i < foods.Count; i ++)
-        {
-            if (foods[i] <= 4)
-            {
+        //for (int i =0; i < foods.Count; i ++)
+        //{
+        //    if (userInput == foods[i])
+        //    {
 
-                Console.WriteLine(foods.IndexOf(userInput));
-            }
-            else
-            {
-                Console.WriteLine("That item is not on the list.");
-            }
-        }
-        Console.ReadLine();
+        //        Console.WriteLine(foods.IndexOf(userInput));
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+        //Console.ReadLine();
+
         
+        
+        
+        
+        
+        
+        //Part 6
+        
+        
+        //List<string> foods = new List<string>() { "pizza ", "cheese ", "chocolate ", "bubble gum ", "pizza ", "tacos " , "fries ", "poutine ", "tacos "};
+        //List<string> empty = new List<string>();
+        //foreach (string food in foods) {
+        //    if (empty.Contains(food))
+        //    {
+        //        Console.WriteLine(food + "is on the list.");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(food + "is not on the list.");
+        //        empty.Add(food);
+        //    }
+        //}
+        
+
+
+        //Console.ReadLine();
+           
 
 
 
@@ -246,5 +273,5 @@ class Program
 
 
     }
-    
+
 }
